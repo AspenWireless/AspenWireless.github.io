@@ -2,7 +2,7 @@
 
 ISP Nexus contains many configuration options for various use cases of the service.
 
-<warning>TODO: real overview article</warning>
+<warning>TODO: overview article</warning>
 
 <tip>
     For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
@@ -39,8 +39,7 @@ your personal preference.
 </list>
 <step>Navigate to the ISP Nexus dashboard</step>
 <step>Access the Database tab under <control>Administration → Database</control></step>
-<step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
-<step><warning>TODO: screenshot</warning></step>
+<step><warning>TODO: finish steps/screenshot, my ciena build doesnt have auto backups</warning></step>
 </procedure>
 
 <procedure title="Manual Backups">
@@ -49,7 +48,8 @@ your personal preference.
 </list>
 <step>Navigate to the ISP Nexus dashboard</step>
 <step>Access the Database tab under <control>Administration → Database</control></step>
-<step><warning>TODO: finish steps/screenshot, my ciena build doesnt have auto backups</warning></step>
+<step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
+<step><warning>TODO: screenshot</warning></step>
 </procedure>
 
 ## Sonar Payment Authentication
@@ -74,4 +74,5 @@ you will need to configure xyz
 <step>Pull up the ISP Nexus dashboard</step>
 <step>Navigate to <control>Administration → Settings → UserManager</control></step>
 <step>Run <control>Reset Secure Tokens</control> to clear encrypted cookies</step>
+<step><warning>TODO: screenshot</warning></step>
 </procedure>
