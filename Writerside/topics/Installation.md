@@ -41,6 +41,7 @@
         <li>To configure the port, navigate to the web settings
         under <control>Administration → Settings → WebServer</control></li>
         <li>Configure <control>ServerPort</control> to your desired port</li>
+        <li><warning>TODO: screenshot</warning></li>
         <li>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</li>
     </list>
 </procedure>
@@ -68,6 +69,8 @@
 ISP Nexus installation can be verified by navigating to the dashboard.
 Assuming the machine is licensed and the service is running, the dashboard won't display
 any errors and will contain full functionality of the service.
+
+<warning>TODO: screenshot</warning>
 
 <seealso style="cards">
     <category ref="related">

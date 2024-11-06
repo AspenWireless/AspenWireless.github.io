@@ -77,6 +77,7 @@ you will need to configure xyz
         </li>
         <li>Adding, viewing, editing, and removing users can all be done through this page</li>
         <li>Additionally, password changes for your own account are also done here</li>
+        <li><warning>TODO: screenshot</warning></li>
     </list>
 </procedure>
 
