@@ -12,10 +12,10 @@
 
 <tip>
     For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
-    This is hosted at your machine's <code>IPv4</code> address, or <code>localhost</code>, depending on your needs and usage.
+    This is hosted at your machine's <code>IPv4</code> address.
     The default port is <code>8080</code>, however this should be configured to something else as it could
     cause conflicts on your network. See <a href="Installation.md#first-deployment-setup">port configuration here</a>.
-    Example IP: <code>10.x.x.x:9200</code>
+    Example IP: <code>10.x.x.x:9100</code>
 </tip>
 
 ## Debug Server
