@@ -15,7 +15,7 @@
 
 <p>
     Users can add links to external content through the ISP Nexus <control>Custom Menus</control> page,
-    allowing you to  keep all of your networking tools in one neatly organized place.
+    allowing you to keep all of your networking tools in one neatly organized place.
 </p>
 
 <procedure title="Adding a Custom Menu">

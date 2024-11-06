@@ -77,7 +77,7 @@ you will need to configure an API key etc...
 ## Configuring Users
 
 <p id="configuration-user-article">User management is made easy with the integrated tools on the ISP Nexus dashboard.
-3 levels of users allow you to configure customer, technician, and admin access to ISP Nexus.</p>
+3 levels of users allow you to configure customer, technician, and admin access to your ISP Nexus service.</p>
 
 <procedure title="User Management" id="configuration-user-manage">
     <list>
