@@ -19,14 +19,18 @@ ISP Nexus contains a Debug server and statistics page, which is disabled by defa
 <procedure title="Enabling Debug Server">
     <step>Navigate to the ISP Nexus dashboard</step>
     <step>Debug server settings are found under <control>Administration → Settings → ServiceWeb</control></step>
-    <step>Configure <control>Debug</control> to <code>true</code>,and set a port under <control>Debug Port</control></step>
-    <step>Restart service? <warning>TODO: ask matt + screenshot</warning></step>
+    <step>Configure <control>Debug</control> to <code>true</code>, and set a port under <control>Debug Port</control></step>
+    <step>Restart service? <warning>TODO: ask matt</warning></step>
+    <img src="debug-server-setup.png" alt="Debug server setup" border-effect="line"/>
 </procedure>
 
 ### Accessing Debug Server
 
 The debug server can now be accessed at
-<warning>TODO: ask matt + screenshot</warning>
+<code>some-ip</code>
+<warning>ask matt</warning>
+
+<img src="debug-server-view.png" alt="Debug server view" border-effect="line" width="706"/>
 
 ## Backup Procedures
 
@@ -49,7 +53,8 @@ your personal preference.
     <step>Navigate to the ISP Nexus dashboard</step>
     <step>Access the Database tab under <control>Administration → Database</control></step>
     <step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
-    <step><warning>TODO: screenshot</warning></step>
+    <img src="backup-manual.png" alt="Manual backup" border-effect="line"/>
+    <warning>TODO: what's the difference between settings -> service manager and this</warning>
 </procedure>
 
 ## Sonar Payment Authentication
@@ -77,16 +82,19 @@ you will need to configure xyz
         </li>
         <li>Adding, viewing, editing, and removing users can all be done through this page</li>
         <li>Additionally, password changes for your own account are also done here</li>
-        <li><warning>TODO: screenshot</warning></li>
     </list>
+    <img src="user-management.png" alt="User management" border-effect="line"/>
+    <img src="user-management-detailed.png" alt="User list" border-effect="line"/>
+    <step>Users are allowed to add new users at or below their own account's access level</step>
 </procedure>
 
 <procedure title="Clearing ISP Nexus User Cookies" id="user-reset">
     <list>
-        <li>Resetting user cookies will force all users to log back in when they try using ISP Nexus</li>
+        <li>Resetting user cookies will force all users to log back in when they try using ISP Nexus,
+        including your own account</li>
     </list>
     <step>Pull up the ISP Nexus dashboard</step>
     <step>Navigate to <control>Administration → Settings → UserManager</control></step>
     <step>Run <control>Reset Secure Tokens</control> to clear encrypted cookies</step>
-    <step><warning>TODO: screenshot</warning></step>
+    <img src="user-reset-cookies.png" alt="Reset user cookies" border-effect="line"/>
 </procedure>

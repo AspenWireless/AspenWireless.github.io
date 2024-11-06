@@ -11,7 +11,7 @@
 <procedure>
     <step><a href="https://www.aspensmart.net/">Get ISP Nexus</a> from the downloads page</step>
     <step>Configure filesystem (placeholder image)
-    <img src="completion_procedure.png" alt="filesystem layout" border-effect="line"/></step>
+    <img src="completion_procedure.png" alt="Filesystem layout" border-effect="line"/></step>
     <step><warning>TODO</warning></step>
 </procedure>
 
@@ -40,10 +40,10 @@
         The credentials you enter will be saved as the <control>admin</control> user</li>
         <li>To configure the port, navigate to the web settings
         under <control>Administration → Settings → WebServer</control></li>
-        <li>Configure <control>ServerPort</control> to your desired port</li>
-        <li><warning>TODO: screenshot</warning></li>
-        <li>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</li>
+        <li>Configure <control>ServerPort</control> to your desired port and select <code>CHANGE</code></li>
     </list>
+    <img src="server-port.png" alt="Server port config" border-effect="line"/>
+    <step>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</step>
 </procedure>
 
 <tip>
@@ -70,7 +70,7 @@ ISP Nexus installation can be verified by navigating to the dashboard.
 Assuming the machine is licensed and the service is running, the dashboard won't display
 any errors and will contain full functionality of the service.
 
-<warning>TODO: screenshot</warning>
+<img src="dashboard.png" alt="ISP Nexus dashboard" border-effect="line" width="706"/>
 
 <seealso style="cards">
     <category ref="related">
