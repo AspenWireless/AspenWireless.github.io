@@ -17,7 +17,7 @@
             <showDownloadButton>true</showDownloadButton>
         </variables>
         <footer>
-            <copyright>2024 Aspen Wireless Technologies, LLC dba Aspen Smart Networks</copyright>
+            <copyright>2024 Aspen Wireless Technologies LLC, DBA Aspen Smart Networks</copyright>
         </footer>
     </build-profile>
 </buildprofiles>
