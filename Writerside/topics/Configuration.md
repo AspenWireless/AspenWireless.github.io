@@ -31,11 +31,10 @@ ISP Nexus contains a Debug server and statistics page, which is disabled by defa
 
 <tip>Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
 
-### Accessing Debug Server
-
-The debug server can now be accessed at the same IP as ISP Nexus using your newly configured port.
-
-<img src="debug-server-view.png" alt="Debug server view" border-effect="line" width="706"/>
+<procedure title="Accessing Debug Server">
+    <p>The debug server can now be accessed at the same IP as ISP Nexus using your newly configured port.</p>
+    <img src="debug-server-view.png" alt="Debug server view" border-effect="line"/>
+</procedure>
 
 ## Backup Procedures
 

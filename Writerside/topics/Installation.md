@@ -70,21 +70,21 @@
     navigate to <code>/etc/systemd/system</code> from your Linux root directory</step>
     <step>Create a file named <code>ispnexus.service</code> and paste the following contents:</step>
     <code-block src="ispnexus-service.kt"></code-block>
+    <list>
+        <li>Start the service using <code>systemctl start ispnexus</code></li>
+        <li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
+        <code>systemctl restart ispnexus</code> respectively</li>
+    </list>
 </procedure>
 
-<list>
-<li>Start the service using <code>systemctl start ispnexus</code></li>
-<li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
-<code>systemctl restart ispnexus</code> respectively</li>
-</list>
+## Verifying Installation
 
-### Verifying Installation
-
-ISP Nexus installation can be verified by navigating to the dashboard.
-Assuming the machine is licensed and the service is running, the dashboard won't display
-any errors and will contain full functionality of the service.
-
-<img src="dashboard.png" alt="ISP Nexus dashboard" border-effect="line" width="706"/>
+<procedure>
+    <p>ISP Nexus installation can be verified by navigating to the dashboard.
+    Assuming the machine is licensed and the service is running, the dashboard won't display
+    any errors and will contain full functionality of the service.</p>
+    <img src="dashboard.png" alt="ISP Nexus dashboard" border-effect="line"/>
+</procedure>
 
 <seealso style="cards">
     <category ref="related">
