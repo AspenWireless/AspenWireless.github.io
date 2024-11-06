@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Override fonts to use ExoVar
+Title content site-wide*/
+.title__content {
+    font-family: "Exo";
+    font-weight: 400;
+}
+
+/*Paragraph content site-wide*/
+.article__p {
+    font-family: "Exo";
+    font-weight: 300;
+}
+
+/*Get Started page title*/
+.starting-page-title__title {
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+/*Get Started page main article*/
+.starting-page-title__subtitle {
+    font-family: "Exo";
+    font-weight: 200;
+}
+
+/*Get Started page subtitles*/
+.rs-h2 {
+    font-family: "Exo";
+    font-weight: 400;
+}
+
+/*For sitewide elements like header*/
+:root {
+    /*--rs-font-family-mono: ""; Mono font for codeblocks etc.*/
+    --rs-font-family-ui: "Exo";
+    --rs-font-family-jb-sans: "Exo";
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Get Started" id="Get-Started">
+
+    <section-starting-page>
+        <title>Get Started</title>
+        <description>
+            Onboarding and sales should be the most challenging parts of running an ISP,
+            but device management, customer management, and back-end systems often cause more
+            headaches than they should. With the introduction of ISPNexus, your MikroTik,
+            Ubiquiti, PF Sense Netgate, Tarana, and other popular ISP CPE routers can become
+            affordable and powerful simultaneously without requiring complicated setups.
+        </description>
+
+        <spotlight>
+            <a href="What-s-New.md" type="development" summary="See the latest updates"/>
+            <a href="About-ISP-Nexus.md" type="search" summary="Learn about the service"/>
+        </spotlight>
+
+        <primary>
+            <title>Jump Right In</title>
+            <a href="Prerequisites.md" type="tools" summary="Hardware/Software requirements for installation"/>
+            <a href="Installation.md" type="start" summary="See installation procedures"/>
+        </primary>
+
+        <secondary>
+            <title>Additional Resources</title>
+            <a href="Troubleshooting.md" type="bug" summary="Outages got you down? See how to troubleshoot ISP Nexus">
+                Troubleshooting Tips
+            </a>
+            <a href="Support.md" type="support" summary="We've got you covered">Get Support</a>
+        </secondary>
+    </section-starting-page>
+</topic>
