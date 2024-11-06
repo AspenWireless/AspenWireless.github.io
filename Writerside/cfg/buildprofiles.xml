@@ -2,15 +2,13 @@
 <!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <variables>
-        <!-- <noindex-content>false</noindex-content> Uncomment for search engine indexing -->
-    </variables>
 
     <build-profile instance="in">
         <variables>
             <noindex-content>true</noindex-content>
             <primary-color>#58B6A3</primary-color>
             <header-logo>logo.png</header-logo>
+            <product-web-url>https://aspenwireless.net</product-web-url>
             <custom-favicons>favicon.ico</custom-favicons>
             <custom-css>custom.css</custom-css>
             <!--<product-web-url>https://aspensmart.net</product-web-url> Use for logo link in top left -->
