@@ -8,7 +8,7 @@ ISP Nexus contains many configuration options for various use cases of the servi
     For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
     This is hosted at your machine's <code>IPv4</code> address, or <code>localhost</code>, depending on your needs and usage.
     The default port is <code>8080</code>, however this should be configured to something else as it could
-    cause conflicts on your network. See <a href="Installation.md#first-deployment">port configuration here</a>.
+    cause conflicts on your network. See <a href="Installation.md">port configuration here</a>.
     Example IP: <code>10.x.x.x:9200</code>
 </tip>
 
@@ -20,22 +20,20 @@ ISP Nexus contains a Debug server and statistics page, which is disabled by defa
     <step>Navigate to the ISP Nexus dashboard</step>
     <step>Debug server settings are found under <control>Administration → Settings → ServiceWeb</control></step>
     <step>Configure <control>Debug</control> to <code>true</code>, and set a port under <control>Debug Port</control></step>
-    <step>Restart service? <warning>TODO: ask matt</warning></step>
     <img src="debug-server-setup.png" alt="Debug server setup" border-effect="line"/>
 </procedure>
 
+<tip>Note: you will need to restart the ISP Nexus service for this to take effect</tip>
+
 ### Accessing Debug Server
 
-The debug server can now be accessed at
-<code>some-ip</code>
-<warning>ask matt</warning>
+The debug server can now be accessed at the same IP as ISP Nexus using your newly configured port.
 
 <img src="debug-server-view.png" alt="Debug server view" border-effect="line" width="706"/>
 
 ## Backup Procedures
 
-ISP Nexus allows for both automatic and manual backups, depending on
-your personal preference.
+ISP Nexus allows for both automatic and manual backups, depending on your personal preference.
 
 <procedure title="Automatic Backups">
     <list>
@@ -54,15 +52,16 @@ your personal preference.
     <step>Access the Database tab under <control>Administration → Database</control></step>
     <step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
     <img src="backup-manual.png" alt="Manual backup" border-effect="line"/>
-    <warning>TODO: what's the difference between settings -> service manager and this</warning>
 </procedure>
+
+<tip>Backups can also be performed under <control>Administration → Settings → Service Manager</control></tip>
 
 ## Sonar Payment Authentication
 
 ### DHCP Service
 
 In order to integrate Sonar Software payment service for user authentication,
-you will need to configure xyz
+you will need to configure an API key etc...
 
 <warning>TODO: get full isp nexus deployment from matt, my ciena build doesn't have sonar settings</warning>
 
@@ -72,10 +71,10 @@ you will need to configure xyz
 
 ## Configuring Users
 
-<p id="user-article">User management is made easy with the integrated tools on the ISP Nexus dashboard.
+<p id="configuration-user-article">User management is made easy with the integrated tools on the ISP Nexus dashboard.
 3 levels of users allow you to configure customer, technician, and admin access to ISP Nexus.</p>
 
-<procedure title="User Management" id="user-manage">
+<procedure title="User Management" id="configuration-user-manage">
     <list>
         <li>
             User management settings can be found under
@@ -89,7 +88,7 @@ you will need to configure xyz
     <step>Users are allowed to add new users at or below their own account's access level</step>
 </procedure>
 
-<procedure title="Clearing ISP Nexus User Cookies" id="user-reset">
+<procedure title="Clearing ISP Nexus User Cookies" id="configuration-user-reset">
     <list>
         <li>Resetting user cookies will force all users to log back in when they try using ISP Nexus,
         including your own account</li>
