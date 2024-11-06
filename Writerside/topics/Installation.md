@@ -43,12 +43,10 @@
 </tip>
 
 <procedure title="Configuring ISP Nexus Port">
-    <list>
-        <li>
-            Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
-            as it could cause conflicts with other services on your network.
-        </li>
-    </list>
+    <p>
+        Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
+        as it could cause conflicts with other services on your network.
+    </p>
     <step>To configure the port, navigate to the web settings
     under <control>Administration → Settings → WebServer</control></step>
     <step>Configure <control>ServerPort</control> to your desired port and select <code>CHANGE</code></step>
@@ -77,9 +75,7 @@
     </list>
 </procedure>
 
-## Verifying Installation
-
-<procedure>
+<procedure title="Verifying Installation">
     <p>ISP Nexus installation can be verified by navigating to the dashboard.
     Assuming the machine is licensed and the service is running, the dashboard won't display
     any errors and will contain full functionality of the service.</p>

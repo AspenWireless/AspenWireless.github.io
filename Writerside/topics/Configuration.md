@@ -68,7 +68,7 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
 In order to integrate Sonar Software payment service for user authentication,
 you will need to configure an API key etc...
 
-<warning>TODO: Get screenshots from Matt, my build doesn't have sonar settings</warning>
+<warning>TODO: Get steps and screenshots from Matt, my build doesn't have sonar settings</warning>
 
 ### Sonar Hook
 
@@ -87,17 +87,17 @@ you will need to configure an API key etc...
         </li>
         <li>Adding, viewing, editing, and removing users can all be done through this page</li>
         <li>Additionally, password changes for your own account are also done here</li>
+        <li>Users are allowed to add new users at or below their own account's access level</li>
     </list>
     <img src="user-management.png" alt="User management" border-effect="line"/>
     <img src="user-management-detailed.png" alt="User list" border-effect="line"/>
-    <step>Users are allowed to add new users at or below their own account's access level</step>
 </procedure>
 
 <procedure title="Clearing ISP Nexus User Cookies" id="configuration-user-reset">
-    <list>
-        <li>Resetting user cookies will force all users to log back in when they try using ISP Nexus,
-        including your own account</li>
-    </list>
+    <p>
+        Resetting user cookies will force all users to log back in when they
+        try using ISP Nexus, including your own account
+    </p>
     <step>Pull up the ISP Nexus dashboard</step>
     <step>Navigate to <control>Administration → Settings → UserManager</control></step>
     <step>Run <control>Reset Secure Tokens</control> to clear encrypted cookies</step>
