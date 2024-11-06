@@ -5,17 +5,18 @@
 ## ISP Nexus Users
 
 <!-- Refers to configuration.md for content -->
-<include from="Configuration.md" element-id="user-article"></include>
+<include from="Configuration.md" element-id="configuration-user-article"></include>
 
-<include from="Configuration.md" element-id="user-manage"></include>
+<include from="Configuration.md" element-id="configuration-user-manage"></include>
 
-<include from="Configuration.md" element-id="user-reset"></include>
+<include from="Configuration.md" element-id="configuration-user-reset"></include>
 
 ## Custom Menus
 
-Users can add links to external content through the ISP Nexus
-<control>Custom Menus</control> page, allowing you to  keep all
-of your networking tools in one neatly organized place.
+<p>
+    Users can add links to external content through the ISP Nexus <control>Custom Menus</control> page,
+    allowing you to  keep all of your networking tools in one neatly organized place.
+</p>
 
 <procedure title="Adding a Custom Menu">
     <list>

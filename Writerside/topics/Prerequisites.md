@@ -4,7 +4,7 @@
 
 ## Hardware Requirements
 
-<warning>TODO: you need this hardware because...</warning>
+ISP Nexus has varying hardware requirements depending on the scope of your network.
 
 ### ISP Nexus and DHCP Server
 
@@ -109,40 +109,46 @@ Some hardware requirements depend on how many subscribers you expect in your net
 
 ## Software Requirements
 
-<warning>
-    TODO:
-    <list>
-        <li>you need this software because...</li>
-        <li>expand on software requirements with detail/explanations</li>
-    </list>
-</warning>
+<p>
+    This section details all required operating systems and software tools for running ISP Nexus,
+    along with what they are used for. Additional non-required tools used for troubleshooting
+    and network monitoring are detailed in the <a href="Troubleshooting.md"/> and <a href="Operation.md"/> sections.
+</p>
 
 <deflist>
 <def title="Operating System for running ISP Nexus and DHCP Stream">
-    <list><li>Ubuntu 18.04 - Ubuntu 24.10 (LTS Preferred)</li></list>
+    <list>
+        <li>
+            Ubuntu 24.10 LTS or newer
+            <list><li>Versions as old as Ubuntu 18.04 LTS <control>could</control>
+            work but are not supported or recommended by Aspen Wireless</li></list>
+        </li>
+    </list>
 </def>
-<def title="Recursive DNS">
-    <list><li>Any linux that supports Unbound DNS</li>
-    <li>All customer DNS requests</li></list>
+<def title="Unbound DNS">
+    <list><li>Used as a recursive DNS resolver</li>
+    <li>Runs on any Linux distribution</li>
+    <li>Handles all customer DNS requests</li></list>
 </def>
-<def title="Authoritative DNS">
-    <list><li>Any linux that supports Webmin</li>
-    <li>PTR and hosted domain requests</li></list>
+<def title="Webmin DNS">
+    <list><li>Used as authoritative DNS server</li>
+    <li>Ran on any Linux distribution supported by Webmin</li>
+    <li>Handles PTR and hosted domain requests</li></list>
 </def>
 <def title="LibreNMS">
-    <list><li>Ubuntu 24.04 (None LTS, not recommended)</li>
-    <li>Local network monitoring</li></list>
+    <list><li>Runs on Ubuntu 24.04 (LTS not recommended)</li>
+    <li>Used for local network monitoring</li></list>
 </def>
 <def title="pfSense">
-    <list><li>Server Firewalling & Routing</li>
-    <li>Optional Certificate store and Radius Server</li></list>
+    <list><li>Used for server firewalling & routing</li>
+    <li>Optionally, can be used for certificate storage and radius server</li></list>
 </def>
-<def title="RDP">
-    <list><li>Linux or Windows Server (windows requires licenses)</li></list>
+<def title="Remote Desktop Solution">
+    <list><li>Linux or Windows RDP Server (Windows requires Pro license on device that is being remotely accessed)</li></list>
 </def>
-<def title="Mikrotik CHR">
-    <list><li>VPN's</li>
-    <li>Bandwidth testing</li></list>
+<def title="MikroTik Cloud Hosted Router (CHR)">
+    <list><li>Used as a VPN server to manage/route VPN traffic</li>
+    <li>Also used for bandwidth testing and management</li></list>
 </def>
 <def title="Web Server">
     <list><li>Ubuntu LTS & OpenLiteSpeed & CyberPanel</li>

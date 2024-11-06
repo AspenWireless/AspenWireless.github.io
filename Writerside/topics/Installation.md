@@ -1,18 +1,19 @@
-# ISP Nexus Installation
+# Installation
 
 <warning>TODO: overview article</warning>
 
-## Install from Debian File
+## From Debian install file
 
-<warning>TODO: build ISPNexus to debian install file & write associated instructions</warning>
+<warning>Debian install not yet implemented in ISP Nexus</warning>
 
-## Install from Executable
+## From executable
 
-<procedure>
-    <step><a href="https://www.aspensmart.net/">Get ISP Nexus</a> from the downloads page</step>
-    <step>Configure filesystem (placeholder image)
-    <img src="completion_procedure.png" alt="Filesystem layout" border-effect="line"/></step>
-    <step><warning>TODO</warning></step>
+<procedure title="Get the Executable">
+    <step>Get <a href="https://www.aspensmart.net/">ISP Nexus</a> from the downloads page</step>
+    <step>Navigate to <code>/opt</code> from the root of your Linux directory</step>
+    <step>Create a new directory called <code>ISP-Nexus</code></step>
+    <step>Place <code>ispnexus</code> executable and <code>webfiles</code> folder in this directory</step>
+    <p>The full directory of the executable should be <code>/opt/ISP-Nexus/ispnexus</code></p>
 </procedure>
 
 <tip>
@@ -21,48 +22,61 @@
     See <a href="Licensing.md">licensing information here</a>.
 </tip>
 
-## First Deployment
+## First Deployment Setup
 
 <p>
-    Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
-    as it could cause conflicts with other services on your network. You will also need to
-    setup the initial admin user on first deployment.
+    Before fully deploying ISP Nexus, there is some basic setup to be done.
+    Use <code>sudo ./ispnexus</code> to soft-start the service in order to make these configurations.
+    Use <code>CTRL+C</code> to stop the service after completing any configurations.
 </p>
 
-<procedure title="First User and Configuring Port">
-    <list>
-        <li>Before fully deploying ISP Nexus, there is some basic setup to be done</li>
-        <li>Using <code>sudo ./ispnexus</code>, you can soft-start the service to make these configurations</li>
-    </list>
-    <list type="decimal">
-        <li>Navigate to the ISP Nexus dashboard at <code>10.x.x.x::8080</code></li>
-        <li>You will be prompted to enter a username and password.
-        The credentials you enter will be saved as the <control>admin</control> user</li>
-        <li>To configure the port, navigate to the web settings
-        under <control>Administration → Settings → WebServer</control></li>
-        <li>Configure <control>ServerPort</control> to your desired port and select <code>CHANGE</code></li>
-    </list>
-    <img src="server-port.png" alt="Server port config" border-effect="line"/>
-    <step>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</step>
+<procedure title="Creating Initial User">
+    <step>Navigate to the ISP Nexus dashboard at <code>10.x.x.x::8080</code></step>
+    <step>You will be prompted to enter a username and password.
+    The credentials you enter will be saved as the <control>admin</control> user</step>
 </procedure>
 
 <tip>
-    The IP <code>10.x.x.x:</code> is simply a placeholder.
+    The IP <code>10.x.x.x</code> is simply a placeholder.
     Replace this with your machine's IPv4 address or <code>localhost</code>, depending on your needs and usage.
+    The port on first deployment will be <code>8080</code>
 </tip>
 
-## Final Deployment
-
-<procedure title="Deploying ISP Nexus">
+<procedure title="Configuring ISP Nexus Port">
     <list>
-        <li>For deploying ISP Nexus, you will want to use <code>systemctl</code> so
-        that the service is automatically started and stopped with the machine, and so
-        it is restarted if the service were to have an unexpected failure</li>
-        <li>Start the service using <code>systemctl start ispnexus</code></li>
-        <li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
-        <code>systemctl restart ispnexus</code> respectively</li>
+        <li>
+            Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
+            as it could cause conflicts with other services on your network.
+        </li>
     </list>
+    <step>To configure the port, navigate to the web settings
+    under <control>Administration → Settings → WebServer</control></step>
+    <step>Configure <control>ServerPort</control> to your desired port and select <code>CHANGE</code></step>
+    <img src="server-port.png" alt="Server port config" border-effect="line"/>
 </procedure>
+
+<tip>Note: you will need to restart the ISP Nexus service for this to take effect</tip>
+
+## Deploying with systemd
+
+<p>
+    For deploying ISP Nexus, you will want to use <code>systemd</code> so
+    that the service is automatically started and stopped with the machine, and so
+    it is restarted if the service were to have an unexpected failure
+</p>
+
+<procedure title="Setting up systemd">
+    <step>After ISP Nexus is installed and configured how you would like,
+    navigate to <code>/etc/systemd/system</code> from your Linux root directory</step>
+    <step>Create a file named <code>ispnexus.service</code> and paste the following contents:</step>
+    <code-block src="ispnexus-service.kt"></code-block>
+</procedure>
+
+<list>
+<li>Start the service using <code>systemctl start ispnexus</code></li>
+<li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
+<code>systemctl restart ispnexus</code> respectively</li>
+</list>
 
 ### Verifying Installation
 
