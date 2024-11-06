@@ -3,7 +3,7 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <noindex-content>false</noindex-content>
+        <!-- <noindex-content>false</noindex-content> Uncomment for search engine indexing -->
     </variables>
 
     <build-profile instance="in">

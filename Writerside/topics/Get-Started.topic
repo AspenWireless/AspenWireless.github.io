@@ -23,6 +23,8 @@
             <title>Jump Right In</title>
             <a href="Prerequisites.md" type="tools" summary="Hardware/Software requirements for installation"/>
             <a href="Installation.md" type="start" summary="See installation procedures"/>
+            <a href="Operation.md" type="server" summary="See how to get around ISP Nexus"/>
+            <a href="Configuration.md" type="experiment" summary="For post-installation configurations"/>
         </primary>
 
         <secondary>

@@ -12,7 +12,7 @@
     <step><a href="https://www.aspensmart.net/">Get ISP Nexus</a> from the downloads page</step>
     <step>Configure filesystem (placeholder image)
     <img src="completion_procedure.png" alt="filesystem layout" border-effect="line"/></step>
-    <step><warning>TODO: Work out installation with Matt</warning></step>
+    <step><warning>TODO</warning></step>
 </procedure>
 
 <tip>
@@ -23,9 +23,11 @@
 
 ## First Deployment
 
-Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
-as it could cause conflicts with other services on your network. You will also need to
-setup the initial admin user on first deployment.
+<p>
+    Initially, ISP Nexus will deploy to port <code>8080</code>. You may want to change this,
+    as it could cause conflicts with other services on your network. You will also need to
+    setup the initial admin user on first deployment.
+</p>
 
 <procedure title="First User and Configuring Port">
 <list>

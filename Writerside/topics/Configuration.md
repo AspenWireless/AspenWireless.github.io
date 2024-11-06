@@ -20,13 +20,13 @@ ISP Nexus contains a Debug server and statistics page, which is disabled by defa
 <step>Navigate to the ISP Nexus dashboard</step>
 <step>Debug server settings are found under <control>Administration → Settings → ServiceWeb</control></step>
 <step>Configure <control>Debug</control> to <code>true</code>, and set a port under <control>Debug Port</control></step>
-<step>Restart service? <warning>ask matt</warning></step>
+<step>Restart service? <warning>TODO: ask matt + screenshot</warning></step>
 </procedure>
 
 ### Accessing Debug Server
 
 The debug server can now be accessed at
-<warning>ask matt</warning>
+<warning>TODO: ask matt + screenshot</warning>
 
 ## Backup Procedures
 
@@ -40,6 +40,7 @@ your personal preference.
 <step>Navigate to the ISP Nexus dashboard</step>
 <step>Access the Database tab under <control>Administration → Database</control></step>
 <step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
+<step><warning>TODO: screenshot</warning></step>
 </procedure>
 
 <procedure title="Manual Backups">
@@ -47,8 +48,8 @@ your personal preference.
 <li>If automatic backups are not desired, manual backups can be done through the ISP Nexus dashboard</li>
 </list>
 <step>Navigate to the ISP Nexus dashboard</step>
-<step>Web settings are found under <control>Administration → Settings → WebServer</control></step>
-<step>Use the <code>BACKUP NOW</code> button to create a new backup</step>
+<step>Access the Database tab under <control>Administration → Database</control></step>
+<step><warning>TODO: finish steps/screenshot, my ciena build doesnt have auto backups</warning></step>
 </procedure>
 
 ## Sonar Payment Authentication
@@ -58,20 +59,19 @@ your personal preference.
 In order to integrate Sonar Software payment service for user authentication,
 you will need to configure xyz
 
-<warning>get full isp nexus deployment from matt, sonar settings aren't in the build i have</warning>
+<warning>TODO: get full isp nexus deployment from matt, my ciena build doesnt have sonar settings</warning>
 
 ### Sonar Hook
 
-see above
+<warning>see above</warning>
 
 ## Reset Users
 
-<procedure title="Clearing user cookies in ISP Nexus">
+<procedure title="Clearing ISP Nexus User Cookies">
 <list>
 <li>Resetting user cookies will force all users to log back in when they try using ISP Nexus</li>
 </list>
 <step>Pull up the ISP Nexus dashboard</step>
 <step>Navigate to <control>Administration → Settings → UserManager</control></step>
-<step>Run <control>Reset Secure Tokens</control> to clear encrypted cookies, this will force
-</step>
+<step>Run <control>Reset Secure Tokens</control> to clear encrypted cookies</step>
 </procedure>

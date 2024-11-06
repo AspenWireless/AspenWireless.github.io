@@ -4,7 +4,7 @@
 
 ## Hardware Requirements
 
-<warning>TODO: yadda yadda you need this hardware because...</warning>
+<warning>TODO: you need this hardware because...</warning>
 
 ### ISP Nexus and DHCP Server
 
@@ -121,7 +121,7 @@ Cluster Sync Network (cluster communications and migrations)
 <warning>
     TODO:
     <list>
-        <li>yadda yadda you need this software because...</li>
+        <li>you need this software because...</li>
         <li>expand on software requirements with detail/explanations</li>
     </list>
 </warning>
