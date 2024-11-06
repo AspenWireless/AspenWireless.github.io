@@ -1,8 +1,14 @@
 # Configuration
 
-ISP Nexus contains many configuration options for various use cases of the service.
-
-<warning>TODO: overview article</warning>
+<warning>
+    TODO:
+    <list>
+        <li>Overview article</li>
+        <li>Many config options currently in ISP Nexus are there for testing some past feature, or don't work at all.
+        These were never removed or hidden because Matt was the only one who was going to see any of it.
+        Some cleanup of the ISP Nexus dashboard is required before a comprehensive config guide can be made.</li>
+    </list>
+</warning>
 
 <tip>
     For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
@@ -23,7 +29,7 @@ ISP Nexus contains a Debug server and statistics page, which is disabled by defa
     <img src="debug-server-setup.png" alt="Debug server setup" border-effect="line"/>
 </procedure>
 
-<tip>Note: you will need to restart the ISP Nexus service for this to take effect</tip>
+<tip>Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
 
 ### Accessing Debug Server
 
@@ -41,7 +47,7 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
     </list>
     <step>Navigate to the ISP Nexus dashboard</step>
     <step>Access the Database tab under <control>Administration → Database</control></step>
-    <step><warning>TODO: finish steps/screenshot, my ciena build doesn't have auto backups</warning></step>
+    <step><warning>TODO: Get screenshots from Matt</warning></step>
 </procedure>
 
 <procedure title="Manual Backups">
@@ -63,11 +69,11 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
 In order to integrate Sonar Software payment service for user authentication,
 you will need to configure an API key etc...
 
-<warning>TODO: get full isp nexus deployment from matt, my ciena build doesn't have sonar settings</warning>
+<warning>TODO: Get screenshots from Matt, my build doesn't have sonar settings</warning>
 
 ### Sonar Hook
 
-<warning>see above</warning>
+<warning>See above</warning>
 
 ## Configuring Users
 

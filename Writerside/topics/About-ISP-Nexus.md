@@ -1,3 +1,3 @@
 # About ISP Nexus
 
-<warning>TODO: overview article, describe app/features</warning>
+<warning>TODO: Overview article, describe app and its features/use cases</warning>

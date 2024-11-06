@@ -1,3 +1,3 @@
 # What's New
 
-<warning>TODO: overview article, show changelog</warning>
+<warning>TODO: Overview article, show changelog</warning>

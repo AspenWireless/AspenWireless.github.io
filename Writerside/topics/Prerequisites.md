@@ -1,10 +1,10 @@
 # Prerequisites
 
-<warning>TODO: overview article</warning>
+<warning>TODO: Overview article</warning>
 
 ## Hardware Requirements
 
-ISP Nexus has varying hardware requirements depending on the scope of your network.
+<warning>TODO: Why is this hardware chosen</warning>
 
 ### ISP Nexus and DHCP Server
 
@@ -144,7 +144,8 @@ Some hardware requirements depend on how many subscribers you expect in your net
     <li>Optionally, can be used for certificate storage and radius server</li></list>
 </def>
 <def title="Remote Desktop Solution">
-    <list><li>Linux or Windows RDP Server (Windows requires Pro license on device that is being remotely accessed)</li></list>
+    <list><li>Linux <code>ssh</code> for terminal access, tools such as VNC or X2Go for graphical solutions</li>
+    <li>Windows RDP Server (Windows requires a Pro license on the device that is being remotely accessed)</li></list>
 </def>
 <def title="MikroTik Cloud Hosted Router (CHR)">
     <list><li>Used as a VPN server to manage/route VPN traffic</li>

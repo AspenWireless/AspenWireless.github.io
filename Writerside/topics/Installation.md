@@ -1,6 +1,6 @@
 # Installation
 
-<warning>TODO: overview article</warning>
+<warning>TODO: Overview article</warning>
 
 ## From Debian install file
 
@@ -55,14 +55,14 @@
     <img src="server-port.png" alt="Server port config" border-effect="line"/>
 </procedure>
 
-<tip>Note: you will need to restart the ISP Nexus service for this to take effect</tip>
+<tip>Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
 
 ## Deploying with systemd
 
 <p>
     For deploying ISP Nexus, you will want to use <code>systemd</code> so
     that the service is automatically started and stopped with the machine, and so
-    it is restarted if the service were to have an unexpected failure
+    it is restarted if the service were to have an unexpected failure.
 </p>
 
 <procedure title="Setting up systemd">

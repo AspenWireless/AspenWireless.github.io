@@ -1,3 +1,3 @@
 # Licensing
 
-<warning>TODO: overview article, licensing information</warning>
+<warning>TODO: Overview article, licensing information</warning>
