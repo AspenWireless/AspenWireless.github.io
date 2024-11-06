@@ -31,7 +31,7 @@
 </p>
 
 <procedure title="Creating Initial User">
-    <step>Navigate to the ISP Nexus dashboard at <code>10.x.x.x::8080</code></step>
+    <step>Navigate to the ISP Nexus dashboard at <code>10.x.x.x:8080</code></step>
     <step>You will be prompted to enter a username and password.
     The credentials you enter will be saved as the <control>admin</control> user</step>
 </procedure>
