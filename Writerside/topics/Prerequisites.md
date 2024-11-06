@@ -121,7 +121,7 @@ Some hardware requirements depend on how many subscribers you expect in your net
         <li>
             Ubuntu 24.10 LTS or newer
             <list><li>Versions as old as Ubuntu 18.04 LTS <control>could</control>
-            work but are not supported or recommended by Aspen Wireless</li></list>
+            work but are <control>not supported or recommended</control> by Aspen Wireless</li></list>
         </li>
     </list>
 </def>
