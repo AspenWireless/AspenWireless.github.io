@@ -53,12 +53,12 @@ The credentials you enter will be saved as the <control>admin</control> user</li
 
 <procedure title="Deploying ISP Nexus">
 <list>
-<li>For deploying ISP Nexus, you will want to use <code>systemctl</code>
-so that the service is automatically started and stopped with the machine, and so
+<li>For deploying ISP Nexus, you will want to use <code>systemctl</code> so
+that the service is automatically started and stopped with the machine, and so
 it is restarted if the service were to have an unexpected failure</li>
 <li>Start the service using <code>systemctl start ispnexus</code></li>
-<li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code>
-and <code>systemctl restart ispnexus</code> respectively</li>
+<li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
+<code>systemctl restart ispnexus</code> respectively</li>
 </list>
 </procedure>
 
