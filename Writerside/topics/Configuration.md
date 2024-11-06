@@ -72,7 +72,8 @@ you will need to configure xyz
 
 ## Configuring Users
 
-<p id="user-article">User management is made easy with the integrated tools on the ISP Nexus dashboard.</p>
+<p id="user-article">User management is made easy with the integrated tools on the ISP Nexus dashboard.
+3 levels of users allow you to configure customer, technician, and admin access to ISP Nexus.</p>
 
 <procedure title="User Management" id="user-manage">
     <list>
