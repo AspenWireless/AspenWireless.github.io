@@ -58,22 +58,13 @@ Some hardware requirements depend on how many subscribers you expect in your net
 
 <list>
 <li>Intelligent Platform Management Interface (IPMI), such as iDRAC Enterprise</li>
-<li>
-4x SFP+/SFP28 ports (10GB - 25GB)
-<list type="alpha-lower">
-<li>
-VM Uplink (servers to internet)
-</li>
-<li>
-VM Downlink (servers to network)
-</li>
-<li>
-Cluster Data Network (storage network)
-</li>
-<li>
-Cluster Sync Network (cluster communications and migrations)
-</li>
-</list>
+<li>4x SFP+/SFP28 ports (10GB - 25GB)
+    <list type="alpha-lower">
+        <li>VM Uplink (servers to internet)</li>
+        <li>VM Downlink (servers to network)</li>
+        <li>Cluster Data Network (storage network)</li>
+        <li>Cluster Sync Network (cluster communications and migrations)</li>
+    </list>
 </li>
 </list>
 

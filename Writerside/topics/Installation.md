@@ -30,36 +30,37 @@
 </p>
 
 <procedure title="First User and Configuring Port">
-<list>
-<li>Before fully deploying ISP Nexus, there is some basic setup to be done</li>
-<li>Using <code>sudo ./ispnexus</code>, you can soft-start the service to make these configurations</li>
-</list>
-<list type="decimal">
-<li>Navigate to the ISP Nexus dashboard at <code>192.0.2.0:8080</code></li>
-<li>You will be prompted to enter a username and password.
-The credentials you enter will be saved as the <control>admin</control> user</li>
-<li>To configure the port, navigate to the web settings under <control>Administration → Settings → WebServer</control></li>
-<li>Configure <control>ServerPort</control> to your desired port</li>
-<li>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</li>
-</list>
+    <list>
+        <li>Before fully deploying ISP Nexus, there is some basic setup to be done</li>
+        <li>Using <code>sudo ./ispnexus</code>, you can soft-start the service to make these configurations</li>
+    </list>
+    <list type="decimal">
+        <li>Navigate to the ISP Nexus dashboard at <code>10.x.x.x::8080</code></li>
+        <li>You will be prompted to enter a username and password.
+        The credentials you enter will be saved as the <control>admin</control> user</li>
+        <li>To configure the port, navigate to the web settings
+        under <control>Administration → Settings → WebServer</control></li>
+        <li>Configure <control>ServerPort</control> to your desired port</li>
+        <li>Stop ISP Nexus service with <code>CTRL+C</code> in the same terminal you started it</li>
+    </list>
 </procedure>
 
 <tip>
-    The IP <code>192.0.2.0</code> is simply a placeholder.
+    The IP <code>10.x.x.x:</code> is simply a placeholder.
     Replace this with your machine's IPv4 address or <code>localhost</code>, depending on your needs and usage.
 </tip>
 
 ## Final Deployment
 
 <procedure title="Deploying ISP Nexus">
-<list>
-<li>For deploying ISP Nexus, you will want to use <code>systemctl</code> so
-that the service is automatically started and stopped with the machine, and so
-it is restarted if the service were to have an unexpected failure</li>
-<li>Start the service using <code>systemctl start ispnexus</code></li>
-<li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
-<code>systemctl restart ispnexus</code> respectively</li>
-</list>
+    <list>
+        <li>For deploying ISP Nexus, you will want to use <code>systemctl</code> so
+        that the service is automatically started and stopped with the machine, and so
+        it is restarted if the service were to have an unexpected failure</li>
+        <li>Start the service using <code>systemctl start ispnexus</code></li>
+        <li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
+        <code>systemctl restart ispnexus</code> respectively</li>
+    </list>
 </procedure>
 
 ### Verifying Installation
