@@ -1,37 +1,36 @@
 # Configuration
 
+Get the most out of ISP Nexus by taking advantage of its comprehensive
+configuration options, allowing you to tailor it to your needs and preferences.
+
 <warning>
-    TODO:
-    <list>
-        <li>Overview article</li>
-        <li>Many config options currently in ISP Nexus are there for testing some past feature, or don't work at all.
-        These were never removed or hidden because Matt was the only one who was going to see any of it.
-        Some cleanup of the ISP Nexus dashboard is required before a comprehensive config guide can be made.</li>
-    </list>
+    Many config options currently in ISP Nexus are there for testing some past feature, or don't work at all.
+    These were never removed or hidden because Matt was the only one who was going to see any of it.
+    Some cleanup of the ISP Nexus dashboard is required before a comprehensive config guide can be made.
 </warning>
 
 <tip>
     For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
     This is hosted at your machine's <code>IPv4</code> address.
     The default port is <code>8080</code>, however this should be configured to something else as it could
-    cause conflicts on your network. See <a href="Installation.md#first-deployment-setup">port configuration here</a>.
+    cause conflicts on your network. See <a href="Installation.md">port configuration here</a>.
     Example IP: <code>10.x.x.x:9100</code>
 </tip>
 
 ## Debug Server
 
-ISP Nexus contains a Debug server and statistics page, which is disabled by default.
+<p id="configuration-debug-article">ISP Nexus contains a Debug server and statistics page, which is disabled by default.</p>
 
-<procedure title="Enabling Debug Server">
+<procedure title="Enabling Debug Server" id="configuration-debug-enable">
     <step>Navigate to the ISP Nexus dashboard</step>
     <step>Debug server settings are found under <control>Administration → Settings → ServiceWeb</control></step>
     <step>Configure <control>Debug</control> to <code>true</code>, and set a port under <control>Debug Port</control></step>
     <img src="debug-server-setup.png" alt="Debug server setup" border-effect="line"/>
 </procedure>
 
-<tip>Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
+<tip id="configuration-debug-restart">Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
 
-<procedure title="Accessing Debug Server">
+<procedure title="Accessing Debug Server" id="configuration-debug-access">
     <p>The debug server can now be accessed at the same IP as ISP Nexus using your newly configured port.</p>
     <img src="debug-server-view.png" alt="Debug server view" border-effect="line"/>
 </procedure>
