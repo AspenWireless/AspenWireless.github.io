@@ -1,15 +1,15 @@
 # Licensing
 
 ISP Nexus licenses are tracked through your machine ID in order
-to ensure users aren't sharing their license. You must submit
+to ensure users aren't sharing a license. You must submit
 your machine ID online in order to authorize your machine to use ISP Nexus.
 
 ## Finding your Machine ID
 
 <p>
-    If you already have ISP Nexus running, you can get your machine ID without having a license setup yet.
+    If you already have ISP Nexus installed, you can get your machine ID without having a license setup yet.
     Navigate to <control>Administration → Settings → LicensingServer</control> and your machine ID
-    will be displayed here.
+    will be displayed here, assuming ISP Nexus is running.
 </p>
 
 Otherwise, get it from your terminal:
@@ -23,5 +23,6 @@ your machine ID is located in a file at <code>/etc/machine-id</code></li>
 ## Submitting your Machine ID
 
 <p>
-    Submit your machine ID <a href="https://aspenwireless.net">here</a> and it will automatically be added to our licensing server.
+    Submit your <a href="https://aspenwireless.net">machine ID here</a> and
+    it will automatically be added to our licensing server.
 </p>

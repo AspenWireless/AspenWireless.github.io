@@ -4,7 +4,7 @@ See what's needed for installation before getting started with ISP Nexus.
 
 ## Hardware Requirements
 
-ISP Nexus is intended for any WISP, regardless of size. However, you will need
+ISP Nexus is intended for any ISP, regardless of size. However, you will need
 to scale your hardware to match the size of your network. We suggest going
 with the strongest hardware possible to prepare for expansion in your network.
 
@@ -147,7 +147,8 @@ Some hardware requirements depend on how many subscribers you expect in your net
 </def>
 <def title="Remote Desktop Solution">
     <list><li>Linux <code>ssh</code> for terminal access</li>
-    <li>Windows RDP Server (Windows requires a Pro license on the device that is being remotely accessed)</li></list>
+    <li>Windows RDP Server if a graphical solution is desired (Windows requires
+    a Pro license on the device that is being remotely accessed)</li></list>
 </def>
 <def title="MikroTik Cloud Hosted Router (CHR)">
     <list><li>Used as a VPN server to manage/route VPN traffic</li>

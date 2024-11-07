@@ -46,7 +46,7 @@ allow/block IP ranges from accessing different ISP Nexus services.
 
 <p>
     Users can add links to external content through the ISP Nexus <control>Custom Menus</control> page,
-    allowing you to keep all of your networking tools in one neatly organized place.
+    allowing you to keep all of your network monitoring tools in one place.
 </p>
 
 <procedure title="Adding a Custom Menu">

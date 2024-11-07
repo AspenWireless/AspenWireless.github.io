@@ -10,7 +10,7 @@ configuration options, allowing you to tailor it to your needs and preferences.
 </warning>
 
 <tip>
-    For the purposes of this guide, the "ISP Nexus Dashboard" refers to the home page of the service.
+    For the purposes of this guide, the <emphasis>ISP Nexus Dashboard</emphasis> refers to the home page of the service.
     This is hosted at your machine's <code>IPv4</code> address.
     The default port is <code>8080</code>, however this should be configured to something else as it could
     cause conflicts on your network. See <a href="Installation.md#installation-configure-port">port configuration here</a>.
@@ -77,13 +77,15 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
         you will need to add your Sonar URL and personal access token to ISP Nexus</li>
     </list>
     <step>Navigate to <control>Administration → Settings → Sonar Sync</control></step>
-    <step>Paste your URL under <emphasis>Sonar Address</emphasis></step>
-    <step>Paste your personal access token under <emphasis>Sonar Token</emphasis></step>
+    <step>Paste your URL in the <emphasis>Sonar Address</emphasis> field</step>
+    <step>Paste your personal access token in the <emphasis>Sonar Token</emphasis> field</step>
     <img src="sonar-setup.png" alt="Sonar dhcp" border-effect="line"/>
 </procedure>
 
-See how to set up a Sonar personal access token
-<a href="https://docs.sonar.expert/system/api-calls-using-third-party-applications-personal-access-tokens">here.</a>
+See how to set up a
+<a href="https://docs.sonar.expert/system/api-calls-using-third-party-applications-personal-access-tokens">
+    Sonar personal access token here
+</a>
 
 ## Configuring Users
 

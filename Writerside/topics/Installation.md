@@ -50,7 +50,7 @@
     <img src="server-port.png" alt="Server port config" border-effect="line"/>
 </procedure>
 
-<tip>Note: you will need to restart the ISP Nexus service for this to take effect.</tip>
+<tip>Note: You will need to restart the ISP Nexus service for this to take effect.</tip>
 
 ## Verifying Installation
 
