@@ -71,20 +71,19 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
 
 ## Sonar Payment Authentication
 
-<procedure title="Sonar DHCP Service">
+<procedure title="Sonar Sync">
     <list>
         <li>In order to integrate Sonar Software payment service for user authentication,
-        you will need to add your Sonar API key to the DHCP</li>
-        <li>Navigate to <control>Administration → Settings → Sonar DHCP Service</control>
-        to configure your API key</li>
+        you will need to add your Sonar URL and personal access token to ISP Nexus</li>
     </list>
-    <img src="sonar-dhcp.png" alt="Sonar dhcp" border-effect="line"/>
+    <step>Navigate to <control>Administration → Settings → Sonar Sync</control></step>
+    <step>Paste your URL under <emphasis>Sonar Address</emphasis></step>
+    <step>Paste your personal access token under <emphasis>Sonar Token</emphasis></step>
+    <img src="sonar-setup.png" alt="Sonar dhcp" border-effect="line"/>
 </procedure>
 
-<procedure title="Sonar Hook">
-    <step>Add your server URL so that Sonar is able to verify authenticated users</step>
-    <img src="sonar-hook.png" alt="Sonar hook" border-effect="line"/>
-</procedure>
+See how to set up a Sonar personal access token
+<a href="https://docs.sonar.expert/system/api-calls-using-third-party-applications-personal-access-tokens">here.</a>
 
 ## Configuring Users
 
