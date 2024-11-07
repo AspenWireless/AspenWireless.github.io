@@ -11,6 +11,15 @@ Here's how to get started with operating and maintaining your ISP Nexus service.
 
 <include from="Configuration.md" element-id="configuration-user-reset"/>
 
+## Updating ISP Nexus
+
+<list type="decimal">
+<li>Get the latest version from our <a href="https://aspenwireless.net">downloads page</a></li>
+<li>Stop the service using <code>systemctl stop ispnexus</code></li>
+<li>Navigate to your linux terminal and install the updates using <code>sudo dpkg -i ISPNexus.deb</code></li>
+<li>Start the service back up using <code>systemctl start ispnexus</code></li>
+</list>
+
 ## Web Server Settings
 
 For configuring the ISP Nexus web server.
@@ -25,7 +34,7 @@ allow/block IP ranges from accessing different ISP Nexus services.
 ### Auto-Blacklist
 
 <p>
-    If someone is trying to access ISP Nexus routes that don't exit (for example, someone attempting to do
+    If someone is trying to access ISP Nexus routes that don't exist (for example, someone attempting to do
     something malicious), they will be shown in this <emphasis>Black List</emphasis> tab.
     They will be automatically blacklisted from the service after 10 attempts. If you accidentally
     blacklist yourself, restart ISP Nexus and you will regain access.

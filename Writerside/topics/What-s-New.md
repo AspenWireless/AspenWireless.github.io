@@ -1,5 +1,8 @@
 # What's New
 
+See our latest features, updates, and changes. Need help updating ISP Nexus? Check out the
+<a href="Operation.md#updating-isp-nexus"/> section of our operation guide.
+
 <procedure title="v1.3.0">
     <list>
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
