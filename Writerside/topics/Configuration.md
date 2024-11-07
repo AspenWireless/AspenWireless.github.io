@@ -44,8 +44,10 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
         <li>ISP Nexus supports automatic backups using an Amazon S3 Bucket</li>
     </list>
     <step>Navigate to the ISP Nexus dashboard</step>
-    <step>Access the Database tab under <control>Administration → Database</control></step>
-    <step><warning>TODO: Get screenshots from Matt</warning></step>
+    <step>Access the Backup Service page under <control>Administration → Settings → Backup Service</control></step>
+    <step>Fill in your S3 bucket information here</step>
+    <step>Optionally, enable the <control>Encrypted Backups</control> toggle
+    and enter an encryption passphrase to use encrypted backups</step>
 </procedure>
 
 <procedure title="Manual Backups">
@@ -58,20 +60,31 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
     <img src="backup-manual.png" alt="Manual backup" border-effect="line"/>
 </procedure>
 
+<procedure title="Restoring from a Backup">
+    <step>Navigate to the Database tab in ISP Nexus from <control>Administration → Database</control></step>
+    <step>Select an item to partially or fully restore from</step>
+    <step>Additionally, you can download or delete previous backups</step>
+    <img src="backup-restore.png" alt="Restoring from a backup"/>
+</procedure>
+
 <tip>Backups can also be performed under <control>Administration → Settings → Service Manager</control></tip>
 
 ## Sonar Payment Authentication
 
-### DHCP Service
+<procedure title="Sonar DHCP Service">
+    <list>
+        <li>In order to integrate Sonar Software payment service for user authentication,
+        you will need to add your Sonar API key to the DHCP</li>
+        <li>Navigate to <control>Administration → Settings → Sonar DHCP Service</control>
+        to configure your API key</li>
+    </list>
+    <img src="sonar-dhcp.png" alt="Sonar dhcp"/>
+</procedure>
 
-In order to integrate Sonar Software payment service for user authentication,
-you will need to configure an API key etc...
-
-<warning>TODO: Get steps and screenshots from Matt, my build doesn't have sonar settings</warning>
-
-### Sonar Hook
-
-<warning>See above</warning>
+<procedure title="Sonar Hook">
+    <step>Add your server URL so that Sonar is able to verify authenticated users</step>
+    <img src="sonar-hook.png" alt="Sonar hook"/>
+</procedure>
 
 ## Configuring Users
 

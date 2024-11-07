@@ -1,11 +1,12 @@
 # Prerequisites
 
-<warning>TODO: Overview article</warning>
+See what's needed for installation before getting started with ISP Nexus.
 
 ## Hardware Requirements
 
 ISP Nexus is intended for any WISP, regardless of size. However, you will need
-to scale your hardware to match the size of your network.
+to scale your hardware to match the size of your network. We suggest going
+with the strongest hardware possible to prepare for expansion in your network.
 
 ### ISP Nexus and DHCP Server
 

@@ -84,8 +84,7 @@ hypervisor service (i.e. Proxmox) to reboot nodes or restore them to a backup if
 
 Sonar Software outages shouldn't cause issues in ISP Nexus. However, just in case they do, ISP Nexus has an
 <emphasis>Offline Mode</emphasis> setting under
-<warning>todo</warning>
-<control>Administration → Settings → SonarSettings</control>. This setting uses cached data for
+<control>Administration → Settings → SonarSync</control>. This setting uses cached data for
 authentication, bypassing the Sonar payment service, allowing ISP Nexus to continue functioning.
 
 This should only be used temporarily, as any changes to authentication
