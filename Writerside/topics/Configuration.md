@@ -64,7 +64,7 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
     <step>Navigate to the Database tab in ISP Nexus from <control>Administration → Database</control></step>
     <step>Select an item to partially or fully restore from</step>
     <step>Additionally, you can download or delete previous backups</step>
-    <img src="backup-restore.png" alt="Restoring from a backup"/>
+    <img src="backup-restore.png" alt="Restoring from a backup" border-effect="line"/>
 </procedure>
 
 <tip>Backups can also be performed under <control>Administration → Settings → Service Manager</control></tip>
@@ -78,12 +78,12 @@ ISP Nexus allows for both automatic and manual backups, depending on your person
         <li>Navigate to <control>Administration → Settings → Sonar DHCP Service</control>
         to configure your API key</li>
     </list>
-    <img src="sonar-dhcp.png" alt="Sonar dhcp"/>
+    <img src="sonar-dhcp.png" alt="Sonar dhcp" border-effect="line"/>
 </procedure>
 
 <procedure title="Sonar Hook">
     <step>Add your server URL so that Sonar is able to verify authenticated users</step>
-    <img src="sonar-hook.png" alt="Sonar hook"/>
+    <img src="sonar-hook.png" alt="Sonar hook" border-effect="line"/>
 </procedure>
 
 ## Configuring Users

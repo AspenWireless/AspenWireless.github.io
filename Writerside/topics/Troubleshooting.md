@@ -19,7 +19,7 @@ Coupled with external monitoring tools, troubleshooting your network is a quick 
 
 <procedure title="Viewing Devices in your Network">
     <step>The device manager can be found through the <control>Device Manager</control> button on your ISP Nexus dashboard</step>
-    <img src="device-manager.png" alt="Device manager"/>
+    <img src="device-manager.png" alt="Device manager" border-effect="line"/>
     <tip>IP information has been hidden in this screenshot</tip>
     <list>
         <li>This page can provide very useful information about your network</li>
