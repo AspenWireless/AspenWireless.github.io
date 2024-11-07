@@ -40,7 +40,7 @@ allow/block IP ranges from accessing different ISP Nexus services.
     blacklist yourself, restart ISP Nexus and you will regain access.
 </p>
 
-<img src="web-service-blacklist.png" alt="Web server firewall" border-effect="line" width="706"/>
+<img src="web-service-blacklist.png" alt="Web server blacklist" border-effect="line" width="706"/>
 
 ## Custom Menus
 
