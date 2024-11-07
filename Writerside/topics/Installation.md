@@ -7,11 +7,11 @@
 <procedure title="Get ISP Nexus Package">
     <step>Get Debian install file from our <a href="https://aspenwireless.net">downloads page</a></step>
     <step>Navigate to your linux terminal and install the package using <code>sudo dpkg -i ISPNexus.deb</code></step>
-    <step>Start the service using <code>systemctl enable ispnexus</code>
-    then <code>systemctl start ispnexus</code></step>
+    <step>Start the service using <code>sudo systemctl enable ispnexus</code>
+    then <code>sudo systemctl start ispnexus</code></step>
     <list>
-        <li>If needed, safely stop or restart the service using <code>systemctl stop ispnexus</code> and
-        <code>systemctl restart ispnexus</code> respectively</li>
+        <li>If needed, safely stop or restart the service using <code>sudo systemctl stop ispnexus</code> and
+        <code>sudo systemctl restart ispnexus</code> respectively</li>
     </list>
 </procedure>
 
