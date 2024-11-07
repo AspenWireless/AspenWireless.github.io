@@ -11,6 +11,12 @@ Here's how to get started with operating and maintaining your ISP Nexus service.
 
 <include from="Configuration.md" element-id="configuration-user-reset"/>
 
+## Web Server Settings
+
+### Firewalling
+
+### Auto-Blacklist
+
 ## Custom Menus
 
 <p>

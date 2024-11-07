@@ -146,7 +146,7 @@ Some hardware requirements depend on how many subscribers you expect in your net
     <li>Optionally, can be used for certificate storage and radius server</li></list>
 </def>
 <def title="Remote Desktop Solution">
-    <list><li>Linux <code>ssh</code> for terminal access, tools such as VNC or X2Go for graphical solutions</li>
+    <list><li>Linux <code>ssh</code> for terminal access</li>
     <li>Windows RDP Server (Windows requires a Pro license on the device that is being remotely accessed)</li></list>
 </def>
 <def title="MikroTik Cloud Hosted Router (CHR)">
