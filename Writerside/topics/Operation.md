@@ -13,9 +13,25 @@ Here's how to get started with operating and maintaining your ISP Nexus service.
 
 ## Web Server Settings
 
+For configuring the ISP Nexus web server.
+
 ### Firewalling
 
+ISP Nexus incorporates firewalling into the software. This allows forward-facing networks to
+allow/block IP ranges from accessing different ISP Nexus services.
+
+<img src="web-service-firewall.png" alt="Web server firewall" border-effect="line" width="706"/>
+
 ### Auto-Blacklist
+
+<p>
+    If someone is trying to access ISP Nexus routes that don't exit (for example, someone attempting to do
+    something malicious), they will be shown in this <emphasis>Black List</emphasis> tab.
+    They will be automatically blacklisted from the service after 10 attempts. If you accidentally
+    blacklist yourself, restart ISP Nexus and you will regain access.
+</p>
+
+<img src="web-service-blacklist.png" alt="Web server firewall" border-effect="line" width="706"/>
 
 ## Custom Menus
 
