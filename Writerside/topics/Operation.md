@@ -5,11 +5,11 @@
 ## ISP Nexus Users
 
 <!-- Refers to configuration.md for content -->
-<include from="Configuration.md" element-id="configuration-user-article"></include>
+<include from="Configuration.md" element-id="configuration-user-article"/>
 
-<include from="Configuration.md" element-id="configuration-user-manage"></include>
+<include from="Configuration.md" element-id="configuration-user-manage"/>
 
-<include from="Configuration.md" element-id="configuration-user-reset"></include>
+<include from="Configuration.md" element-id="configuration-user-reset"/>
 
 ## Custom Menus
 
@@ -51,7 +51,7 @@
 All services within ISP Nexus push their output logs, including warnings and errors,
 to a centralized location in order to make troubleshooting quick and painless.
 
-<procedure title="Accessing Logs">
+<procedure title="Accessing Logs" id="operation-logs">
     <list>
         <li>Logs can be found under <control>Administration → Logs</control> on the ISP Nexus dashboard</li>
     </list>
