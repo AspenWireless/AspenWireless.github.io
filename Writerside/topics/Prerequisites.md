@@ -4,7 +4,8 @@
 
 ## Hardware Requirements
 
-<warning>TODO: Why is this hardware chosen</warning>
+ISP Nexus is intended for any WISP, regardless of size. However, you will need
+to scale your hardware to match the size of your network.
 
 ### ISP Nexus and DHCP Server
 
@@ -15,7 +16,7 @@
 
 Some hardware requirements depend on how many subscribers you expect in your network.
 
-<tabs title="test">
+<tabs>
     <tab title="0 - 500">
         <procedure>
             <list>
