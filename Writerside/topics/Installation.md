@@ -47,7 +47,7 @@
     <step>To configure the port, navigate to the web settings
     under <control>Administration → Settings → WebServer</control></step>
     <step>Configure <control>ServerPort</control> to your desired port and select <code>CHANGE</code></step>
-    <img src="server-port.png" alt="Server port config" border-effect="line"/>
+    <img src="customer-list.png" alt="Server port config" border-effect="line"/>
 </procedure>
 
 <tip>Note: You will need to restart the ISP Nexus service for this to take effect.</tip>
@@ -60,7 +60,7 @@
     any licensing warnings and will contain full functionality.
 </p>
 
-<img src="dashboard.png" alt="ISP Nexus dashboard" border-effect="line" width="706"/>
+<img src="customer-list.png" alt="ISP Nexus dashboard" border-effect="line" width="706"/>
 
 <seealso style="cards">
     <category ref="related">
