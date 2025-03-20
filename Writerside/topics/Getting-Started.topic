@@ -2,7 +2,7 @@
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Getting Started" id="Getting-Started" help-id="Getting-Started">
+       title="Getting Started" id="Getting-Started">
     <section-starting-page>
         <title>Getting Started</title>
         <description>Check out the following topics to help you get started with your ISP Nexus instance.</description>
