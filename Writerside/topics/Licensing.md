@@ -23,6 +23,6 @@ your machine ID is located in a file at <code>/etc/machine-id</code></li>
 ## Submitting your Machine ID
 
 <p>
-    Submit your <a href="https://aspenwireless.net">machine ID here</a> and
+    Submit your <a href="https://aspensmart.net">machine ID here</a> and
     it will automatically be added to our licensing server.
 </p>

@@ -1,6 +1,6 @@
 # Prerequisites
 
-See what's needed for installation before getting started with ISP Nexus.
+See what's needed for installation of an ISP Nexus instance.
 
 ## Hardware Requirements
 
@@ -114,7 +114,7 @@ Some hardware requirements depend on how many subscribers you expect in your net
 <p>
     This section details all required operating systems and software tools for running ISP Nexus,
     along with what they are used for. Additional non-required tools used for troubleshooting
-    and network monitoring are detailed in the <a href="Troubleshooting.md"/> and <a href="Operation.md"/> sections.
+    and network monitoring are detailed in the <a href="Troubleshooting.md"/> and <a href="Operation.topic"/> sections.
 </p>
 
 <deflist>

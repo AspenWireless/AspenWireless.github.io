@@ -2,22 +2,20 @@
 <!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
     <build-profile instance="in">
         <variables>
             <noindex-content>true</noindex-content>
             <primary-color>#58B6A3</primary-color>
             <header-logo>logo.png</header-logo>
-            <product-web-url>https://aspenwireless.net</product-web-url>
+            <product-web-url>https://aspensmart.net</product-web-url>
             <custom-favicons>favicon.ico</custom-favicons>
             <custom-css>custom.css</custom-css>
-            <!--<product-web-url>https://aspensmart.net</product-web-url> Use for logo link in top left -->
             <download-title>Get ISP Nexus</download-title>
             <download-page>https://aspensmart.net</download-page>
             <showDownloadButton>true</showDownloadButton>
         </variables>
         <footer>
-            <copyright>2024 Aspen Wireless Technologies LLC, DBA Aspen Smart Networks</copyright>
+            <copyright>2025 Aspen Wireless Technologies LLC, DBA Aspen Smart Networks</copyright>
         </footer>
     </build-profile>
 </buildprofiles>

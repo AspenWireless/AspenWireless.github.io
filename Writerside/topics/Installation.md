@@ -64,7 +64,7 @@
 
 <seealso style="cards">
     <category ref="related">
-        <a href="Operation.md" summary="Get started with operating and maintaining your new service">
+        <a href="Operation.topic" summary="Get started with operating and maintaining your new service">
             Operation Procedures</a>
         <a href="Configuration.md" summary="Learn about ISP Nexus configuration options">
             Configuration Options</a>

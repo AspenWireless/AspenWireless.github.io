@@ -2,33 +2,24 @@
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Get Started" id="Get-Started">
-
+       title="Getting Started" id="Getting-Started" help-id="Getting-Started">
     <section-starting-page>
-        <title>Get Started with ISP Nexus</title>
-        <description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Cras sit amet dui vel nisi fermentum commodo vel a libero.
-        </description>
-
+        <title>Getting Started</title>
+        <description>Check out the following topics to help you get started with your ISP Nexus instance.</description>
         <spotlight>
             <a href="What-s-New.md" type="development" summary="See the latest updates"/>
             <a href="About-ISP-Nexus.md" type="search" summary="Learn about the service"/>
         </spotlight>
-
         <primary>
             <title>Jump Right In</title>
             <a href="Prerequisites.md" type="tools" summary="Hardware/Software requirements for installation"/>
             <a href="Installation.md" type="start" summary="See installation procedures"/>
-            <a href="Operation.md" type="server" summary="See how to get around ISP Nexus"/>
+            <a href="Operation.topic" type="server" summary="See how to get around ISP Nexus"/>
             <a href="Configuration.md" type="experiment" summary="For post-installation configurations"/>
         </primary>
-
         <secondary>
             <title>Additional Resources</title>
-            <a href="Troubleshooting.md" type="bug" summary="Outages got you down? See how to troubleshoot ISP Nexus">
-                Troubleshooting Tips
-            </a>
+            <a href="Troubleshooting.md" type="bug" summary="Outages got you down? See how to troubleshoot ISP Nexus"/>
             <a href="Support.md" type="support" summary="We've got you covered">Get Support</a>
         </secondary>
     </section-starting-page>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
+    <!-- "terms" defined here are used for tooltips see https://www.jetbrains.com/help/writerside/tooltips.html -->
     <term name="foo">
         Description of what "foo" is.
     </term>

@@ -31,6 +31,11 @@ Title content site-wide*/
     font-weight: 400;
 }
 
+/*Override for weird shadows on images in borderless tables*/
+.table__wrapper--without-borders {
+    border: 1px solid transparent;
+}
+
 /*For sitewide elements like header*/
 :root {
     /*--rs-font-family-mono: ""; Mono font for codeblocks etc.*/
