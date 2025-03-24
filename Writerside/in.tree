@@ -13,6 +13,7 @@
     <toc-element topic="Operation.topic">
         <toc-element topic="Customer-Management.md"/>
         <toc-element topic="MikroTik.md"/>
+        <toc-element topic="Ciena.md"/>
         <toc-element topic="Plume.md"/>
         <toc-element topic="Sonar.md"/>
         <toc-element topic="Tools.md"/>

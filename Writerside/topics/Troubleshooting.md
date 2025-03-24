@@ -34,7 +34,7 @@ Coupled with external monitoring tools, troubleshooting your network is a quick 
 The detailed log page built into ISP Nexus provides output information about its different services.
 A tile with a large amount of logs could be an indication of an issue or outage in the network.
 
-<include from="Administration.md" element-id="operation-logs"/>
+<include from="Administration.md" element-id="logs"/>
 
 ## External Tools
 

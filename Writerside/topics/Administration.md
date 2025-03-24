@@ -1,78 +1,93 @@
 # Administration
 
-Some placeholder
+The following pages (excluding Logs) are restricted to Admin users
+for security purposes.
 
-## Web Server Settings
+## Logs
 
-For configuring the ISP Nexus web server.
+Services within ISP Nexus push logs to a centralized location,
+in order to make troubleshooting quick and painless. Success, warning, and error
+messages are all collected here for you to view.
+
+<table style="none" column-width="fixed" border="false">
+<tr>
+<td>
+<img src="logs.png" alt="Logs" thumbnail="true"/>
+</td>
+<td>
+</td>
+</tr>
+</table>
+
+## Settings
+
+See the
+<a href="Configuration.md" summary=""/>
+section for help with your ISP Nexus settings.
+
+<table style="none" column-width="fixed" border="false">
+<tr>
+<td>
+<img src="settings.png" alt="Settings" thumbnail="true"/>
+</td>
+<td>
+</td>
+</tr>
+</table>
+
+## Web Server
+
+Manage local files, internal routes, firewall settings,
+and black-listed IPs.
 
 ### Firewalling
 
 ISP Nexus incorporates firewalling into the software. This allows forward-facing networks to
 allow/block IP ranges from accessing different ISP Nexus services.
 
-<img src="customer-list.png" alt="Web server firewall" border-effect="line" width="706"/>
+### Blacklist
 
-### Auto-Blacklist
+If someone is trying to access ISP Nexus routes that don't exist (for example, someone attempting to do
+something malicious), they will be shown in the <i>Black List</i> section.
+They will be automatically blacklisted from the service after 10 attempts. If you accidentally
+blacklist yourself, restart ISP Nexus to reset the blacklist.
 
-<p>
-    If someone is trying to access ISP Nexus routes that don't exist (for example, someone attempting to do
-    something malicious), they will be shown in this <emphasis>Black List</emphasis> tab.
-    They will be automatically blacklisted from the service after 10 attempts. If you accidentally
-    blacklist yourself, restart ISP Nexus and you will regain access.
-</p>
+## Custom Menus
 
-<img src="customer-list.png" alt="Web server blacklist" border-effect="line" width="706"/>
+Users can add links to external content through the ISP Nexus <i>Custom Menus</i> page,
+allowing you to keep all of your network monitoring tools in one place.
 
-### Custom Menus
+<table style="none" column-width="fixed" border="false">
+<tr>
+<td>
+<img src="custom-menus.png" alt="Custom Menus" thumbnail="true"/>
+</td>
+<td>
+</td>
+</tr>
+</table>
 
-<p>
-    Users can add links to external content through the ISP Nexus <control>Custom Menus</control> page,
-    allowing you to keep all of your network monitoring tools in one place.
-</p>
+## Services
 
-<procedure title="Adding a Custom Menu">
-    <list>
-        <li>Menus can be found under <control>Administration → Menus</control> on the ISP Nexus dashboard</li>
-    </list>
-    <img src="customer-list.png" alt="Custom menus" border-effect="line"/>
-    <list>
-        <li>Select <code>ADD DROPDOWN</code> to create a new menu</li>
-    </list>
-    <img src="customer-list.png" alt="Custom menu creation" border-effect="line"/>
-    <list>
-        <li>Fill out a name, numeric priority value for the service, and select the minimum
-        access level required to see the menu. Finally, select <code>ADD</code>.
-        The priority level is used to order your menus, a higher priority will appear at the top</li>
-        <li>After creating a new menu, you now need to add links. Select <code>ADD LINK</code> to continue.</li>
-    </list>
-    <img src="customer-list.png" alt="Add link" border-effect="line"/>
-    <img src="customer-list.png" alt="Add link page" border-effect="line"/>
-    <list>
-        <li>Again, provide a name for the specific link, and the address. Since
-        each custom menu allows for multiple links, you will also need to assign it a priority level</li>
-    </list>
-    <img src="customer-list.png" alt="Add menu complete" border-effect="line"/>
-    <list>
-        <li>Your custom menu will now appear in the ISP Nexus Navbar for easy access</li>
-        <li>Remove or edit your custom menus at any time through this page</li>
-    </list>
-</procedure>
+Manage internal services to enable/disable various implementations and functionalities
+of ISP Nexus.
 
-### Error Logging
+## IPC
 
-All services within ISP Nexus push their output logs, including warnings and errors,
-to a centralized location in order to make troubleshooting quick and painless.
+Track inter-process communication within ISP Nexus to help with any necessary debugging.
 
-<procedure title="Accessing Logs" id="operation-logs">
-    <list>
-        <li>Logs can be found under <control>Administration → Logs</control> on the ISP Nexus dashboard</li>
-    </list>
-    <img src="customer-list.png" alt="Output logs" border-effect="line"/>
-    <step>Clicking on the hyperlinked number next to <code>Log count</code>
-    will take you to a detailed output page for that service:</step>
-    <img src="customer-list.png" alt="Output log detailed view" border-effect="line"/>
-    <list>
-        <li>Functionality for saving and resetting logs is also included in the detail view</li>
-    </list>
-</procedure>
+## Database
+
+Manage the internal database and local backups.
+
+<warning>
+    Warning: Changes here can have serious impacts on the service. Proceed with caution.
+</warning>
+
+## Cloud Backups
+
+Have ISP Nexus automatically backup to an AWS S3 bucket.
+
+## Database Sync
+
+Synchronize your local database with a remote database.

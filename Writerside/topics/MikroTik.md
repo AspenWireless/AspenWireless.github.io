@@ -51,6 +51,7 @@ added to your CPEs during the provisioning process.
 <img src="provision-config.png" alt="Configs" thumbnail="true"/>
 </td>
 <td>
+<img src="provision-users.png" alt="Users" thumbnail="true"/>
 </td>
 </tr>
 </table>

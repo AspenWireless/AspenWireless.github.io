@@ -7,15 +7,15 @@
         <title>Getting Started</title>
         <description>Check out the following topics to help you get started with your ISP Nexus instance.</description>
         <spotlight>
-            <a href="What-s-New.md" type="development" summary="See the latest updates"/>
-            <a href="About-ISP-Nexus.md" type="search" summary="Learn about the service"/>
+            <a href="What-s-New.md" type="development" summary="See our latest features, updates, and changes"/>
+            <a href="About-ISP-Nexus.md" type="search" summary="Learn what ISP Nexus can do for you and your network"/>
         </spotlight>
         <primary>
             <title>Jump Right In</title>
-            <a href="Prerequisites.md" type="tools" summary="Hardware/Software requirements for installation"/>
+            <a href="Prerequisites.md" type="tools" summary="See what's needed for installation of an ISP Nexus instance"/>
             <a href="Installation.md" type="start" summary="See installation procedures"/>
-            <a href="Operation.topic" type="server" summary="See how to get around ISP Nexus"/>
-            <a href="Configuration.md" type="experiment" summary="For post-installation configurations"/>
+            <a href="Operation.topic" type="server" summary="Everything you need to know about operating and maintaining your ISP Nexus instance"/>
+            <a href="Configuration.md" type="experiment" summary="Get the most out of ISP Nexus by taking advantage of its comprehensive configuration options, allowing you to tailor it to your needs and preferences"/>
         </primary>
         <secondary>
             <title>Additional Resources</title>

@@ -5,22 +5,24 @@
        title="Operation" id="Operation">
     <section-starting-page>
         <title>Operation</title>
-        <description>Operating and maintaining your ISP Nexus instance.</description>
+        <description>Everything you need to know about operating and maintaining your ISP Nexus instance.</description>
         <spotlight>
-            <a href="Customer-Management.md" type="development" summary="Manage your customer base"/>
-            <a href="MikroTik.md" type="development" summary="Manage your network's CPEs"/>
+            <a href="Customer-Management.md" type="community" summary="Manage your customer base"/>
+            <a href="MikroTik.md" type="server" summary="Manage your networks CPEs"/>
         </spotlight>
         <primary>
-            <title>Additional Pages</title>
-            <a href="Plume.md" type="development" summary="Plume Frontline API Integrations"/>
-            <a href="Sonar.md" type="development" summary="Sonar API Information"/>
-            <a href="Tools.md" type="development" summary="Built-in management tools"/>
-            <a href="Administration.md" type="development" summary="Administration pages"/>
+            <title>Additional Sections</title>
+            <a href="Ciena.md" type="integration" summary="Ciena MCMS Integrations"/>
+            <a href="Plume.md" type="cloud" summary="Plume Frontline API Integrations"/>
+            <a href="Sonar.md" type="data" summary="Sonar API Information"/>
+            <a href="Tools.md" type="tools" summary="Built-in management tools"/>
+            <a href="Administration.md" type="lock" summary="Administration pages"/>
+            <a href="Configuration.md" type="check-list"/>
         </primary>
         <secondary>
             <title>Other Resources</title>
-            <a href="Installation.md" type="bug" summary="See how to install an ISP Nexus instance"/>
-            <a href="Updating-ISP-Nexus.md" type="support" summary="Update your existing ISP Nexus instance"/>
+            <a href="Installation.md" type="start" summary="See how to install an ISP Nexus instance"/>
+            <a href="Updating-ISP-Nexus.md" type="experiment" summary="Update your existing ISP Nexus instance"/>
         </secondary>
     </section-starting-page>
 </topic>
