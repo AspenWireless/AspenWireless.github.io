@@ -17,7 +17,8 @@
             <a href="Sonar.md" type="data" summary="Sonar API Information"/>
             <a href="Tools.md" type="tools" summary="Built-in management tools"/>
             <a href="Administration.md" type="lock" summary="Administration pages"/>
-            <a href="Configuration.md" type="check-list"/>
+            <a href="Configuration.md" type="check-list" summary="Get the most out of ISP Nexus by taking advantage of its comprehensive configuration options"/>
+            <a href="Users.md" type="account" summary="Manage access to the Web Server"/>
         </primary>
         <secondary>
             <title>Other Resources</title>
